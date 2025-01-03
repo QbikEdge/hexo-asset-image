@@ -4,11 +4,18 @@ Automatically give asset images in Hexo an absolute path.
 
 ## Installation
 
-To install `hexo-asset-image`, run the following command:
+To install the original `hexo-asset-image`, run the following command:
 
 ```sh
-npm install https://github.com/czqu/hexo-asset-image --save
+npm install hexo-asset-image --save
 ```
+
+To install this version of `hexo-asset-image`, run the following command (❗Please change/remove this part of Readme after pulling to original Repo):
+
+```sh
+npm install https://github.com/QbikEdge/hexo-asset-image --save
+```
+
 ## Configuration
 Make sure you have post_asset_folder: true in your _config.yml file. This setting allows Hexo to create a folder for each post to store its assets.
 
